@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: "Roboto", sans-serif;
+    line-height: 1.7em;
+}
+a {
+    color: #333;
+    text-decoration: none;
+}
+h1, h2, h3 {
+    padding-bottom: 20px;
+}
+
+p {
+    margin: 10px 0;
+}
+
+.container {
+    margin: auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0 20px;
+}
+
+.text-primary {
+    color:#f7c08a;
+}
+
+.lead {
+    font-size: 23px;
+}
+
+.btn {
+    display: inline-block;
+    font-size: 18px;
+    color: #fff;
+    background: #333;
+    padding: 8px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #f7c08a;
+    color: #444;
+    font-weight: bold;
+
+}
+
+#navBar {
+    background: #333;
+    color: #fff;
+    overflow: auto;
+}
+
+#navBar a {
+    color: #fff;
+}
+
+#navBar h1 {
+    float: left;
+    padding-top: 20px;
+}
+
+#navBar ul {
+    float: right;
+    list-style: none;
+}
+
+#navBar ul li {
+    float: left;
+}
+
+#navBar ul li a {
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+
+#navBar ul li a:hover,
+#navBar ul li a.current {
+    background: #444;
+    color: #f7c08a;
+}
+
+#showCase {
+    background-image: url(/img/showcase.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+}
+#showCase .showcase-content {
+    color: #fff;
+    text-align: center;
+    padding-top: 170px;
+}
+#showCase .showcase-content h1 {
+    font-size: 50px;
+    line-height: 1.2em;
+}
+#showCase .showcase-content p {
+    padding-bottom: 20px;
+    line-height: 1.7em;
+}
